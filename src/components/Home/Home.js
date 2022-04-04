@@ -4,12 +4,14 @@ import image from '../../image/camera.jpg'
 import { Link } from 'react-router-dom';
 import useReviews from '../../Hooks/useReview';
 import HomeReview from '../HomeReview/HomeReview';
+import Header from '../Header/Header';
 
 const Home = () => {
     const [reviews, setReview] = useReviews([])
-
+    // console.log(setReview)
     return (
         <div>
+            <Header></Header>
             <div className="banner m-5 row ">
                 <div className="col-md-6 camera-info" >
                     <h1 className='title'>Your Dream Camera</h1>
