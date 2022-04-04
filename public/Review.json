@@ -1,0 +1,44 @@
+[
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "comments": "Great Full frame camera at a low cost. I must recommend this strong Machine.",
+        "name": "Daniel Ha",
+        "salary": 1300,
+        "img": "https://img.freepik.com/free-photo/happy-young-man-using-laptop-computer_171337-19581.jpg?t=st=1648123285~exp=1648123885~hmac=8a510c1b5e37b3c8dee362b1c86af127023f3c18605a3ba496695c96eaeb2167&w=740.jpg"
+    },
+    {
+        "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+        "comments": "This camera AF works remarkably well in low light. And the image quality is lovely.",
+        "name": "Margaret Hamilton",
+        "salary": 1700,
+        "img": "https://img.freepik.com/free-photo/horizontal-shot-satisfied-smiling-woman-with-dark-wavy-hair-being-good-mood-spends-free-time-home-wears-casual-t-shirt-isolated-pink-background-positive-human-emotions-concept_273609-57670.jpg?w=740.jpg"
+    },
+    {
+        "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+        "comments": "I've said this many times....per-pixel Sharpness is really better.",
+        "name": "eric hehner",
+        "salary": 1800,
+        "img": "https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?w=740.jpg"
+    },
+    {
+        "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+        "comments": "I wish you guys would do a new comparison with the 5D, would love to see it vs the newer dslr's",
+        "name": "Miguel de Icaza",
+        "salary": 1100,
+        "img": "https://img.freepik.com/free-photo/attractive-mixed-race-male-with-positive-smile-shows-white-teeth-keeps-hands-stomach-being-high-spirit-wears-white-shirt-rejoices-positive-moments-life-people-emotions-concept_273609-15527.jpg?w=740.jpg"
+    },
+    {
+        "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+        "comments": "The Canon 5D was the world's best portrait and landscape camera for under $8,000 in its day",
+        "name": "Paul Jardetzky",
+        "salary": 1150,
+        "img": "https://img.freepik.com/free-photo/portrait-african-american-man_23-2149072214.jpg?t=st=1648123037~exp=1648123637~hmac=0bc5b9bca261da444e102d5ef6d7a92d5ff910f5d2815b55b0931aaf65411d5d&w=740.jpg"
+    },
+    {
+        "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+        "comments": "5D is the lightest full-frame digital camera.",
+        "name": "William Jolitz",
+        "salary": 1050,
+        "img": "https://img.freepik.com/free-photo/photo-attractive-bearded-young-man-with-cherful-expression-makes-okay-gesture-with-both-hands-likes-something-dressed-red-casual-t-shirt-poses-against-white-wall-gestures-indoor_273609-16239.jpg?t=st=1648123391~exp=1648123991~hmac=21ed412d425db63505d0da1457a9783883afb9b1859e2dd8780a0e239a52c2f3&w=740.jpg"
+    }
+]
