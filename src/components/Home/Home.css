@@ -1,0 +1,29 @@
+.banner {
+    /* height: 200px; */
+}
+
+.camera-info {
+    margin-top: 15px;
+}
+
+.title {
+    color: rgb(16, 16, 88);
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.description {
+    color: rgb(102, 100, 100);
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.banner-btn {
+    padding: 5px 10px;
+    color: rgb(16, 16, 88);
+    font-weight: 600;
+    border: 2px solid rgb(50, 153, 238);
+    border-radius: 15px;
+    background-color: rgb(169, 205, 219);
+}
