@@ -10,10 +10,10 @@ const Dashboard = () => {
             .then(data => setChart(data))
     }, [])
     return (
-        <div className='chart-container'>
-            <div className="stacked-bar">
+        <div className='chart-container mt-5 row'>
+            <div className="stacked-bar col-md-6 col-12 d-flex justify-content-center">
                 <div>
-                    <h2 className='text-primary text-center'>Investment Vs Revenue</h2>
+                    <h2 className='text-primary text-center my-4'>Investment Vs Revenue</h2>
                     <BarChart
                         width={500} height={300} data={chart} margin={{
                             top: 20,
@@ -33,9 +33,9 @@ const Dashboard = () => {
                     </BarChart>
                 </div>
             </div>
-            <div className="line-chart">
+            <div className="line-chart col-md-6 col-12 d-flex justify-content-center">
                 <div>
-                    <h2 className='text-primary text-center'>Month Wise Sell</h2>
+                    <h2 className='text-primary text-center my-4'>Month Wise Sell</h2>
                     <LineChart width={500} height={200} data={chart} syncId="anyId" margin={{
                         top: 10,
                         right: 30,
