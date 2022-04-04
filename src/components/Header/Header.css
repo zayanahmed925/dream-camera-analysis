@@ -7,9 +7,18 @@
     font-weight: 700;
     text-decoration: none;
     font-size: 17px;
-    margin-left: 36px;
+    margin: 0 15px;
 }
 
 .header a:hover {
     color: rgb(245, 84, 56);
+}
+
+@media screen and (max-width:425px) {
+    .header a {
+        margin: 20px, 3px;
+        font-size: 12px;
+        font-weight: 700;
+        color: #1d083f;
+    }
 }

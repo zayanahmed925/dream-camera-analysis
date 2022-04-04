@@ -1,19 +1,5 @@
-.chart-container {
-    /* margin-top: 40px; */
-    /* margin-left: 30px; */
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
-}
-
-.stacked-bar {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* padding-top: 20px; */
-}
-
-.line-chart {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+@media screen and (max-width:425px) {
+    .chart {
+        width: 90%
+    }
 }

@@ -2,8 +2,12 @@ import React from 'react';
 import './Home.css'
 import image from '../../image/camera.jpg'
 import { Link } from 'react-router-dom';
+import useReviews from '../../Hooks/useReview';
+import HomeReview from '../HomeReview/HomeReview';
 
 const Home = () => {
+    const [reviews, setReview] = useReviews([])
+
     return (
         <div>
             <div className="banner m-5 row ">
@@ -17,7 +21,15 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <Link to='/reviews'>Review</Link >
+                <h1 className='reviews-title text-center my-5'>Customer Reviews ({reviews.slice(0, 3).length})</h1>
+                <div className='row row-cols-1 row-cols-md-3 g-4 mx-4'>
+                    {
+                        reviews.slice(0, 3).map(review => <HomeReview key={review.id} review={review}></HomeReview>)
+                    }
+                </div>
+                <div className="see-all my-5 ">
+                    <Link className='see-all-btn' to='/reviews'>See all Review</Link >
+                </div>
             </div>
         </div>
 
