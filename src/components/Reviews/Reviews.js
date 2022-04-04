@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import useReviews from '../../Hooks/useReview';
 import Header from '../Header/Header';
 import Review from '../Review/Review';

@@ -1,3 +1,8 @@
-.rating {
-    color: orangered;
+.review-img img {
+    border-radius: 0 50% 50% 50%;
+    width: 60%;
+}
+
+.review-info {
+    margin-top: 15px;
 }

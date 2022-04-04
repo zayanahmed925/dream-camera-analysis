@@ -3,12 +3,12 @@ import './Home.css'
 import image from '../../image/camera.jpg'
 import { Link } from 'react-router-dom';
 import useReviews from '../../Hooks/useReview';
-import HomeReview from '../HomeReview/HomeReview';
 import Header from '../Header/Header';
+import Review from '../Review/Review';
 
 const Home = () => {
-    const [reviews, setReview] = useReviews([])
-    // console.log(setReview)
+    const [reviews] = useReviews()
+
     return (
         <div>
             <Header></Header>
@@ -23,10 +23,10 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <h1 className='reviews-title text-center my-5'>Customer Reviews ({reviews.slice(0, 3).length})</h1>
+                <h1 className='reviews-title text-center my-5'>Customer Reviews ({reviews.length})</h1>
                 <div className='row row-cols-1 row-cols-md-3 g-4 mx-4'>
                     {
-                        reviews.slice(0, 3).map(review => <HomeReview key={review.id} review={review}></HomeReview>)
+                        reviews.slice(0, 3).map(review => <Review key={review.id} review={review}></Review>)
                     }
                 </div>
                 <div className="see-all my-5 ">
